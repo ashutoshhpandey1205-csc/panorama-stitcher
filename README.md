@@ -148,7 +148,31 @@ Default parameters live in `config/default_config.json`:
 Any of these can be overridden per-run via CLI flags (matcher, blend-mode) or by editing/duplicating this file and passing `--config <path>`.
 
 ## Screenshots
+## Sample Input & Results
 
+The project includes four synthetic overlapping images used as sample inputs for testing and demonstrating the panorama stitching pipeline.
+
+### Sample Input Images
+
+| Frame 00 | Frame 01 |
+|---|---|
+| ![Frame 00](sample_images/frame_00.jpg) | ![Frame 01](sample_images/frame_01.jpg) |
+
+| Frame 02 | Frame 03 |
+|---|---|
+| ![Frame 02](sample_images/frame_02.jpg) | ![Frame 03](sample_images/frame_03.jpg) |
+
+### Feature Matching Result
+
+The feature matching stage detects corresponding keypoints between overlapping images.
+
+![Feature Matching Result](outputs/feature_matches_demo.jpg)
+
+### Final Panorama
+
+The four input frames are sequentially stitched into a single panoramic image.
+
+![Final Panorama](outputs/panorama.jpg)
 
 
 ## Notes on Input Images
