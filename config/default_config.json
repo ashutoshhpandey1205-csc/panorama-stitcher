@@ -1,0 +1,6 @@
+{
+  "matcher": "sift",
+  "blend_mode": "feather",
+  "ratio_thresh": 0.75,
+  "ransac_reproj_thresh": 4.0
+}
