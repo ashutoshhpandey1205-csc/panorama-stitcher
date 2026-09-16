@@ -1,0 +1,6 @@
+pair_index,raw_match_count,good_match_count,inlier_count,inlier_ratio
+1,89,23,14,0.6087
+2,115,40,22,0.55
+3,125,54,30,0.5556
+
+total_stitching_time_seconds,0.8352
