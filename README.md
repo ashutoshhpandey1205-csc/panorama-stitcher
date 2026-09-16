@@ -149,7 +149,7 @@ Any of these can be overridden per-run via CLI flags (matcher, blend-mode) or by
 
 ## Screenshots
 
-See `docs/screenshots/` for example output: the stitched panorama, and a feature-match visualization showing correspondences found between two overlapping frames.
+
 
 ## Notes on Input Images
 
